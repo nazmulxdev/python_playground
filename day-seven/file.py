@@ -1,0 +1,6 @@
+f = open("day-seven/demo.txt", "r")
+data = f.read(5)
+db = f.readline()
+print(data)
+print(db)
+f.close()
